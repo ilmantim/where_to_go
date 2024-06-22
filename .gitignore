@@ -1,0 +1,48 @@
+.env
+.cache/
+.config/
+.upm/
+Scripts/
+Lib/
+repl/
+venv/
+.breakpoints
+poetry.lock
+.replit
+pyproject.toml
+pyvenv.cfg
+replit.nix
+replit_zip_error_log.txt
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.vscode/
+.idea/
+Thumbs.db
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+
+# Ignore Django migrations
+**/migrations/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore environment variables file
+.env
+
